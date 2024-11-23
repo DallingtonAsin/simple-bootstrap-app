@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Tutorial</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Experience</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" href="#">Education</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Tech Projects</a></li>
+                            <li><a class="dropdown-item" href="#">Humaritarian</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Space</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <h1 class="text-danger mt-5">Learning Bootstrap today</h1>
+    <div class="row align-items-start">
+         <div class="col">
+             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+         </div>
+        <div class="col">
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </div>
+        <div class="col">
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+        </div>
+    </div>
+    <div>
+        <div class="h2">What is Lorem Ipsum?</div>
+        <p class="standard text-muted">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+    </div>
+    <div>
+        <table class="table table-responsive">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Program</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Magembe Ronald</td>
+                <td>Kampala</td>
+                <td>Cyber Security</td>
+            </tr>
+            <tr>
+                <td>Julio Ngoyi</td>
+                <td>Jinja</td>
+                <td>AI & ML</td>
+            </tr>
+            <tr>
+                <td>Esther Chelsa</td>
+                <td>Mukono</td>
+                <td>Computer Science</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="card mb-5">
+        <div class="card-header bg-secondary">
+            <div class="card-title  h2 text-white text-center">Register with Pivosoft Coding Academy</div>
+        </div>
+       <div class="card-body">
+           <div class="form">
+               <div class="mb-3">
+                   <label for="firstName" class="fw-bold">First Name</label>
+                   <input type="text" name="firstName" id="firstName" class="form-control" placeholder="Enter your first name" required>
+               </div>
+               <div class="mb-3">
+                   <label for="lastName" class="fw-bold">Last Name</label>
+                   <input type="text" name="lastName" id="lastName" class="form-control" placeholder="Enter your last name" required>
+               </div>
+               <div class="mb-3">
+                   <label for="email" class="fw-bold">Email</label>
+                   <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+               </div>
+               <div class="mb-3">
+                   <label for="exampleFormControlTextarea1" class="form-label fw-bold">Biography</label>
+                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+               </div>
+               <div class="mb-3">
+               <input type="button" class="btn btn-sm btn-success" value="Submit"/>
+               </div>
+           </div>
+       </div>
+    </div>
+</div>
+  <script src="bootstrap/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
